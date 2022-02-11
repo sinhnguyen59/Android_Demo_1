@@ -3,6 +3,7 @@
 // Tutorial video 2: https://www.youtube.com/watch?v=1bBwJDCww3g&t=310s
 // Dependency implementation: https://material.io/develop/android/docs/getting-started
 // Dependency latest version: https://maven.google.com/web/index.html#com.google.android.material:material
+// Github Repository: https://github.com/sinhnguyen59/Android_Demo_1.git
 
 package com.example.demo_1;
 
