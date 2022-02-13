@@ -30,16 +30,16 @@ public class MainActivity extends AppCompatActivity {
         btnSnackbar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Snackbar snackbar = Snackbar.make(v, "This is the snackbar", Snackbar.LENGTH_LONG);
-//                snackbar.setDuration(5000);
+                Snackbar snackbar = Snackbar.make(v, "This is the snackbar", Snackbar.LENGTH_INDEFINITE);
+                snackbar.setDuration(5000);
                 snackbar.setAction("UNDO", new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
                         Snackbar undoSnackbar = Snackbar.make(view,"Undo successful", Snackbar.LENGTH_SHORT);
                         undoSnackbar.show();
                     }
-                });
-//                snackbar.setTextColor(Color.GREEN);
+                }).setTextColor(Color.RED);
+                snackbar.setTextColor(Color.GREEN);
                 snackbar.show();
             }
         });
